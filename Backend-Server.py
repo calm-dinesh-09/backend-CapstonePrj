@@ -1,8 +1,14 @@
-For backend:-
-1. pip install mysql-connector-python
-2. vi get_message.py
-3. sudo nano .aws/config
-4. Paste the below code:
+###########################
+## Backend Server Code   ##
+## Capstone Prject       ##
+## Name: Dinesh Punja    ##
+## Date: 18-12-24        ##
+###########################
+# For backend:-
+# 1. pip install mysql-connector-python
+# 2. vi get_message.py
+# 3. sudo nano .aws/config
+# 4. Paste the below code:
 
 import time
 import boto3
