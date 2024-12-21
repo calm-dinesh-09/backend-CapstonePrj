@@ -27,7 +27,7 @@ database='healthcaredb'
 sqs = boto3.client('sqs', region_name='us-east-1', aws_access_key_id='AKIARG2BEA5XDZPJQN53', aws_secret_access_key='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')
 
 #Connect to the RDS MySQL Instance
-mydb = mysql.connector.connect(host=’host’, user=’admin’, password=’password’, database=database)
+mydb = mysql.connector.connect(host=host, user=user, password=password, database=database)
 mycursor = mydb.cursor()
 
 # Receive message from SQS queue
