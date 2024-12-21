@@ -18,10 +18,10 @@ import mysql.connector
 queue_url = 'https://sqs.us-east-1.amazonaws.com/083351570286/BackendTrafficQueue'
 
 #Specify the database details
-host = 'healthcaredb.clwg1yhjslce.us-east-1.rds.amazonaws.com'
+host = 'database09.clwg1yhjslce.us-east-1.rds.amazonaws.com'
 user = 'admin'
 password = 'Test123456#'
-database='healthcaredb'
+database='database09'
 
 #Create a SQS Client
 sqs = boto3.client('sqs', region_name='us-east-1', aws_access_key_id='AKIARG2BEA5XDZPJQN53', aws_secret_access_key='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')
