@@ -12,7 +12,7 @@
 
 import time
 import boto3
-import mysql.connector
+#import mysql.connector
 
 # Que URL
 queue_url = 'https://sqs.us-east-1.amazonaws.com/083351570286/BackendTrafficQueue'
