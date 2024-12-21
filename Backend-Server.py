@@ -52,7 +52,7 @@ address = customerDetailsList[1]
 #Write the record to the database
 
 val = (patient_name, patient_complaint)
-sql = "INSERT INTO patientdb (name, patientissue) VALUES (%s, %s)"
+sql = "INSERT INTO patient (name, patientissue) VALUES (%s, %s)"
 
 mycursor.execute(sql, val)
 mydb.commit()
