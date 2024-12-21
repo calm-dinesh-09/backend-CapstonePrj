@@ -1,6 +1,6 @@
 ###########################
 ## Backend Server Code   ##
-## Capstone Prject       ##
+## Capstone Project       ##
 ## Name: Dinesh Punja    ##
 ## Date: 18-12-24        ##
 ###########################
