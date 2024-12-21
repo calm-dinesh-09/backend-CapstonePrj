@@ -47,12 +47,12 @@ print('Received and deleted message: %s' % message["Body"])
 customerDetails = message["Body"]
 customerDetailsList = customerDetails.split(',')
 name = customerDetailsList[0]
-address = customerDetailsList[1]
+issue = customerDetailsList[1]
 
 #Write the record to the database
 
-val = (patient_name, patient_complaint)
-sql = "INSERT INTO patient (name, patientissue) VALUES (%s, %s)"
+val = (name, issue)
+sql = "INSERT INTO patient (patient_name, patient_complaint) VALUES (%s, %s)"
 
 mycursor.execute(sql, val)
 mydb.commit()
